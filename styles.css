@@ -17,6 +17,14 @@ body {
     padding: 0;
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+    margin: 0px;
+}
+
 .my-header {
     display: inline-block;
 
@@ -31,8 +39,8 @@ body {
     
     height:100vh;
 
-    padding: 10px 0px auto 0px;
-    margin: 0px auto 0px 0px;
+    padding: 10px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .abeka-logo-div {
@@ -72,9 +80,27 @@ nav > ul > li > a {
 #abeka-logo {
     width: 70%;
     border-radius: 10px;
-    box-shadow: 3px 6px 3px rgb(83, 83, 83);
+    box-shadow: 3px 6px 3px rgb(128, 128, 128);
 }
 
 .nav-li > img {
     width: 20%;
+}
+
+.widget {
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgb(128, 128, 128);
+}
+
+h1 {
+    font-size: 26px;
+    color: black;
+}
+
+#sign-in {
+    margin: 62vh auto 20px 20px;
+}
+
+#settings {
+    margin: auto auto 20px 20px;
 }
