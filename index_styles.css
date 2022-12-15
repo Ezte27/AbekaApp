@@ -5,37 +5,49 @@
 }
 
 #task-icon {
-    width: 12%;
+    width: 5vh;
 }
 
 #focus {
-    flex-basis: 50vh;
+    position: absolute;
+    top: 6%;
+    left: 18%;
+    cursor: move;
+    z-index: 1;
 
     padding: 10px;
-    margin: 1vh 2vh auto auto;
+
 }
 
 #daily-progress {
-    flex-basis: 50vh;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    cursor: move;
+    z-index: 1;
 
     padding: 10px;
-    margin: 1vh 2vh auto auto;
+
 }
 
 #tasks {
-    flex-basis: 50vh;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    cursor: move;
+    z-index: 1;
 
     padding: 10px;
-    margin: 1vh 2vh auto auto;
+
 }
 
 .container {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-content: stretch;
+    align-content: stretch; */
 
-    width: 80%;
+    /* width: 80%; */
 
     padding: 2vh;
 }
